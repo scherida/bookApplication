@@ -18,4 +18,8 @@ public class LivroDAO {
     public void excluir(int p){
         listaLivros.remove(p);
     }
+
+    public Livro getLivro(int p){
+        return listaLivros.get(p);
+    }
 }

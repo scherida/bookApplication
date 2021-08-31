@@ -6,47 +6,42 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".CadastroActivity">
+    tools:context=".DetalhesActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Novo Livro"
+        android:layout_marginBottom="50dp"
+        android:text="Detalhes do Livro"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-    <EditText
-        android:id="@+id/etTitulo"
+    <TextView
+        android:id="@+id/tvTitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:ems="10"
-        android:hint="Título do livro"
-        android:inputType="textPersonName" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Título do Livro" />
 
-    <EditText
-        android:id="@+id/etAutor"
+    <TextView
+        android:id="@+id/tvAutor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Autor"
-        android:inputType="textPersonName" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="Nome do autor" />
 
-    <EditText
-        android:id="@+id/etAno"
+    <TextView
+        android:id="@+id/tvAno"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:ems="10"
-        android:hint="Ano de publicação"
-        android:inputType="number" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text="2021" />
 
     <Button
-        android:id="@+id/bSalvar"
+        android:id="@+id/bExcluir"
         android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="20dp"
-        android:text="Salvar" />
+        android:layout_height="88dp"
+        android:text="Excluir Livro"
+        android:layout_marginTop="50dp"/>
 </LinearLayout>
