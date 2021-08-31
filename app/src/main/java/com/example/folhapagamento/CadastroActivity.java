@@ -46,6 +46,11 @@ public class CadastroActivity extends AppCompatActivity {
                 );
 
                 dao.salvar(livro);
+
+                Toast.makeText(this, "Livro cadastrado com sucesso!", Toast.LENGTH_SHORT).show();
+
+                //mata a activity atual
+                finish();
             }
         });
     }
